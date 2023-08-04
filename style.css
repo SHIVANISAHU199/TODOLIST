@@ -1,0 +1,105 @@
+body {
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("https://images.ctfassets.net/lzny33ho1g45/O6Ns6DttUzJym7rhGiD36/9affffb4ec5c115b8f742cd34b663cff/best_to_do_apps.jpg?w=1520&fm=jpg&q=30&fit=thumb&h=760");
+}
+
+header img {
+    height: 40px;
+    margin-left: auto;
+}
+
+#myhead {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 40px;
+    color: rgb(138, 23, 138);
+    text-align: left;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+input[type="text"] {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.menu-btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    width: auto;
+    margin-right: 10px;
+    color: rgb(11, 11, 69);
+    background-color: rgb(112, 223, 219);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.list1 {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin: 50PX 400px 200px 550px;
+    padding: 100px;
+    font-size: large;
+    cursor: pointer;
+    user-select: none;
+    max-width: 450px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(3, 3, 3, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 10px;
+}
+
+li .task {
+    margin-right: 10px;
+}
+
+li .task {
+    flex-grow: 1;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-flexbox;
+    background-color: white;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li+li {
+    margin-top: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+li .delete-button {
+    margin-right: 12px;
+    padding: 15px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
